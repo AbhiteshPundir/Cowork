@@ -42,9 +42,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='flex justify-between'>
-          <p className='text-xs font-light p-4'>@2024 Cowork. All Rights Reserved.</p>
-          <div className='flex text-xs font-normal justify-evenly py-4 w-1/4 underline underline-offset-2'>
+        <div className='flex flex-col lg:flex-row justify-between items-center lg:items-start'>
+          <p className='text-xs font-light pt-4 pb-1 lg:p-4'>@2024 Cowork. All Rights Reserved.</p>
+          <div className='flex text-xs font-normal w-full justify-evenly py-4 lg:w-1/4 underline underline-offset-2'>
             <a href="">Privacy Policy</a>
             <a href="">Terms of Service</a>
             <a href="">Cookie Settings</a>
