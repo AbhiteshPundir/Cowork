@@ -5,7 +5,7 @@ import green from '../assets/green.png'
 const Hero = () => {
   return (
     <div className='h-fit w-full bg-white p-7 lg:py-7 lg:px-10'>
-        <img className='absolute left-[117px] w-[260px] h-[95px] top-[320px] hidden lg:block' src={green} alt="" />
+        <img className='absolute left-[117px] w-[290px] h-[97px] top-[320px] hidden lg:block' src={green} alt="" />
         <div className='flex flex-col gap-5 lg:gap-0 lg:flex-row justify-evenly px-5 mb-6'>
             <div className='flex flex-col items-center lg:items-start gap-7 lg:gap-0 lg:w-1/2 text-center lg:text-left'>
                 <h1 className='text-zinc-900 text-5xl pt-7 lg:text-[80px] font-bold lg:leading-[87px] lg:pt-10 lg:pb-5'>Elevate  Your  Workspace  With  Cowork</h1>
