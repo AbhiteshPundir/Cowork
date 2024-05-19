@@ -41,18 +41,18 @@ const Navbar = () => {
       </button>
       <div className={`p-8 h-screen w-screen absolute top-20 ${isOpen?`block`:`hidden`} bg-zinc-900 flex flex-col gap-40`}>
           <div className='flex flex-col gap-5 text-4xl tracking-wider font-semibold text-zinc-100'>
-            <a>
+            <NavLink to={'/about'} onClick={toggleMenu}>
                 About
-            </a>
-            <a>
+            </NavLink>
+            <NavLink to={'/pricing'} onClick={toggleMenu}>
                 Pricing
-            </a>
-            <a>
+            </NavLink>
+            <NavLink to={'/blog'} onClick={toggleMenu}>
                 Blog
-            </a>
-            <a>
+            </NavLink>
+            <NavLink to={'/events'} onClick={toggleMenu}>
                 Events
-            </a>
+            </NavLink>
           </div>
           <div className='flex justify-end gap-3'>
             <Button content={'Sign up'}/>

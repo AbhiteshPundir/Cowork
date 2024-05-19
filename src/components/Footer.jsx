@@ -4,7 +4,7 @@ const Footer = () => {
   
   return (
     <div className='bg-white w-full h-fit px-8 lg:px-20 py-10'>
-        <div className='bg-zinc-900 rounded-[37px] w-full h-fit lg:h-64 py-8 px-9 flex flex-wrap lg:flex-nowrap gap-5'>
+        <div className='bg-zinc-900 rounded-[37px] w-full h-fit lg:h-64 py-8 px-9 flex flex-col items-center lg:flex-row lg:items-start gap-5'>
           <div className='px-2 flex flex-col lg:w-5/12 gap-2'>
             <h1 className='text-3xl font-bold text-zinc-100'>Cowork</h1>
             <p className='font-light text-xs tracking-wide text-zinc-100 pb-1'>Join our newsletter to stay upto date with deatures and releases.</p>
@@ -16,8 +16,8 @@ const Footer = () => {
             </div>
             <p className='font-light text-xs tracking-wide text-zinc-100 py-3'>By submitting you agree with our policy and provide consent to receive updates form our company.</p>
           </div>
-          <div className='flex justify-evenly flex-wrap gap-5 w-7/12 text-zinc-100'>
-            <div className='flex flex-col lg:gap-4'>
+          <div className='flex flex-col lg:flex-row justify-evenly gap-5 w-7/12 text-zinc-100 text-center lg:text-left'>
+            <div className='flex gap-2 flex-col lg:gap-4 items-center lg:items-start'>
                 <h2 className='text-zinc-100 font-bold text-xs w-36'>EXPLORE MORE</h2>
                 <h3 className='text-xs font-thin'>Home</h3>
                 <h3 className='text-xs font-thin'>About</h3>
@@ -25,14 +25,14 @@ const Footer = () => {
                 <h3 className='text-xs font-thin'>Blog</h3>
                 <h3 className='text-xs font-thin'>Events</h3>
             </div>
-            <div className='flex flex-col lg:gap-4'>
+            <div className='flex gap-2 flex-col lg:gap-4 items-center lg:items-start'>
                 <h2 className='text-zinc-100 font-bold text-xs w-36'>STAY CONNECTED</h2>
                 <h3 className='text-xs font-thin'>Subscribe</h3>
                 <h3 className='text-xs font-thin'>Member Stories</h3>
                 <h3 className='text-xs font-thin'>Locations</h3>
                 <h3 className='text-xs font-thin'>Write for Us</h3>
             </div>
-            <div className='flex flex-col lg:gap-4'>
+            <div className='flex gap-2 flex-col lg:gap-4 items-center lg:items-start'>
                 <h2 className='text-zinc-100 font-bold text-xs w-36'>FOLLOW US</h2>
                 <h3 className='text-xs font-thin'>Facebook</h3>
                 <h3 className='text-xs font-thin'>Instagram</h3>
