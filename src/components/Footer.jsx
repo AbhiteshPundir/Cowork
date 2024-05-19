@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <div className='bg-white w-full h-fit px-8 lg:px-20 py-10'>
         <div className='bg-zinc-900 rounded-[37px] w-full h-fit lg:h-64 py-8 px-9 flex flex-col items-center lg:flex-row lg:items-start gap-5'>
-          <div className='px-2 flex flex-col lg:w-5/12 gap-2'>
+          <div className='px-2 flex flex-col items-center lg:items-start lg:w-5/12 gap-2'>
             <h1 className='text-3xl font-bold text-zinc-100'>Cowork</h1>
             <p className='font-light text-xs tracking-wide text-zinc-100 pb-1'>Join our newsletter to stay upto date with deatures and releases.</p>
-            <div className='flex gap-5 py-1'>
-              <input className='w-2/5 bg-zinc-900 border-b-2 border-zinc-400 font-thin text-xs tracking-wider text-zinc-400' type="text" value={"Enter your email"}/>
+            <div className='flex flex-col lg:flex-row items-center lg:items-start gap-5 py-1'>
+              <input className='lg:w-2/5 bg-zinc-900 border-b-2 border-zinc-400 font-thin text-xs tracking-wider text-zinc-400 p-1' type="text" value={"Enter your email"}/>
               <a className='h-9 text-xs bg-zinc-100 pt-1 font-bold w-24 flex items-center justify-center pb-1 rounded-3xl border-black border-2'>
               Subscribe
               </a>
