@@ -9,7 +9,7 @@ const Hero = () => {
         <div className='flex flex-col gap-5 lg:gap-0 lg:flex-row justify-evenly px-5 mb-6'>
             <div className='flex flex-col items-center lg:items-start gap-7 lg:gap-0 lg:w-1/2 text-center lg:text-left'>
                 <h1 className='text-zinc-900 text-5xl pt-7 lg:text-[80px] font-bold lg:leading-[87px] lg:pt-10 lg:pb-5'>Elevate  Your  Workspace  With  Cowork</h1>
-                <p className='text-sm font-medium lg:pl-2 lg:pr-11 lg:pb-8 lg:leading-6'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga unde labore beatae exercitationem, similique, aliquid enim nobis obcaecati itaque maiores aut. Nostrum debitis sit doloribus laboriosam maiores? Id, architecto voluptatibus.</p>    
+                <p className='text-sm font-medium lg:pl-2 lg:pr-11 lg:pb-8 lg:leading-6'>Welcome to Cowork – where innovation meets collaboration in the heart  of productivity! Unleash 🚀 your potential in our thoughtfully designed coworking spaces, tailored to inspire creativity and foster connections.</p>    
                 <Button2 content={'Claim Your Spot'}/>
             </div>
             <div className='lg:w-[550px] lg:h-[480px] rounded-3xl lg:rounded-[45px] my-3'>
