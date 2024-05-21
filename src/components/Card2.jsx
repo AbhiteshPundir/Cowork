@@ -2,7 +2,7 @@ import React from 'react';
 
 const CourseCard = ({ blog }) => {
   return (
-    <div className="w-[375px] lg:w-[350px] overflow-hidden bg-white">
+    <div className="w-[345px] lg:w-[350px] overflow-hidden bg-white">
       <img className="shadow-lg w-full rounded-3xl h-60 object-cover" src={blog.image} alt={blog.title} />
       <div className="flex items-center mt-4">
           <span className={`inline-block bg-${blog.color}-400/60 text-zinc-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-lg`}>{blog.genre}</span>

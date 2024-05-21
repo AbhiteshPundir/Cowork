@@ -31,7 +31,7 @@ const Blog = () => {
       ];
   return (
     <div className='bg-white h-fit w-full flex flex-col items-center p-3 lg:p-7 my-10'>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center pb-6'>
             <h1 className='text-xs font-bold'>COWORK CHRONICLES</h1>
             <p className='font-bold text-[28px] lg:text-[53px] lg:tracking-wider'>Insights, Innovation, and</p>
             <div className='flex items-center'>
