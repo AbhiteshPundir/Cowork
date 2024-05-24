@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Choose from '../components/Choose'
 import Tour from '../components/Tour'
 import Blog from '../components/Blog'
+import Faq from '../components/Faq'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero/>
       <Choose/>
       <Tour/>
+      <Faq/>
       <Blog/>
     </div>
   )

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className='h-fit w-full bg-white p-7 lg:py-7 lg:px-10 lg:mb-7'>
         <img className='absolute left-[117px] w-[290px] h-[97px] top-[320px] hidden lg:block' src={green} alt="" />
-        <div className='flex flex-col gap-5 lg:gap-0 lg:flex-row justify-evenly px-5 mb-6'>
+        <div className='flex flex-col gap-5 lg:gap-0 lg:flex-row justify-evenly lg:px-5 mb-6'>
             <div className='flex flex-col items-center lg:items-start gap-7 lg:gap-0 lg:w-1/2 text-center lg:text-left'>
                 <h1 className='text-zinc-900 text-5xl pt-7 lg:text-[80px] font-bold lg:leading-[87px] lg:pt-10 lg:pb-5'>Elevate  Your  Workspace  With  Cowork</h1>
                 <p className='text-sm font-medium lg:pl-2 lg:pr-11 lg:pb-8 lg:leading-6'>Welcome to Cowork – where innovation meets collaboration in the heart  of productivity! Unleash 🚀 your potential in our thoughtfully designed coworking spaces, tailored to inspire creativity and foster connections.</p>    

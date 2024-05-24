@@ -2,7 +2,7 @@ import React from 'react'
 
 const Infocard = ({icon,col,content,title}) => {
   return (
-    <div className='w-96 h-fit lg:h-64 rounded-2xl flex flex-col items-center gap-3 p-3 m-2'>
+    <div className='w-80 lg:w-96 h-fit lg:h-64 rounded-2xl flex flex-col items-center gap-3 p-5 lg:p-3 m-2'>
         <div className={`w-7 h-7 pr-3 bg-${col}-400/80 rounded-full`}>
             {icon}
         </div>
