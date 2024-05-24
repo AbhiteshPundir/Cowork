@@ -4,7 +4,7 @@ import Button from './Button'
 import big from '../assets/big.jpeg'
 const Tour = () => {
   return (
-    <div className='bg-white h-fit w-full flex flex-col items-center gap-5 p-3 lg:my-20'>
+    <div className='bg-white h-fit w-full flex flex-col items-center gap-5 p-5 lg:my-20'>
         <div className='flex flex-col items-center'>
           <h1 className='text-xs font-bold mb-3'>A VIRTUAL TOUR</h1>
           <p className='font-bold text-[25px] lg:text-[53px] lg:tracking-wider'>Explore Cowork Through Our</p>
